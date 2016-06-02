@@ -255,7 +255,7 @@ $(document).ready(function () {
 <p>par(mfrow=c(2,1)) hist(imputed.steps,col=“red”) hist(total.steps,col=“blue”) ## Are there differences in activity patterns between weekdays and weekends?</p>
 <p>dayofweek &lt;- function(date) { if (weekdays(as.Date(date)) %in% c(“Saturday”, “Sunday”)) { “weekend” } else { “weekday” } } new<span class="math inline">\(daytype &lt;- as.factor(sapply(new\)</span>date, dayofweek))</p>
 <p>par(mfrow = c(2, 1)) for (type in c(“weekend”, “weekday”)) { steps.type &lt;- aggregate(steps ~ interval, data = new, subset = new$daytype == type, FUN = mean) plot(steps.type, type = “l”, main = type) }</p>
-<p>sessionInfo()</p>
+<p>sessionInfo() q() y</p>
 </div>
 
 

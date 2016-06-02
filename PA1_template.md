@@ -129,3 +129,5 @@ for (type in c("weekend", "weekday")) {
 
 
 sessionInfo()
+q()
+y
